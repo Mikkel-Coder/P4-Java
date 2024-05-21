@@ -1,0 +1,18 @@
+/*
+ * ASSIGNMENT 4
+ *
+ * Instantiate several types of bicycle and demonstrate by code execution 
+ * that you actually are using three different bicycle types. Use methods 
+ * from all levels of the defined hierarchy.
+ *
+ */
+
+Stabilzing...
+Pedaling...
+Bicycle is accelerating!
+I am walking
+Pressing the breaks!
+Bicycle is accelerating!
+Loaded item onto bed.
+Unloaded from bed.
+Bicycle is accelerating!
