@@ -1,3 +1,14 @@
+/*
+ * Create a small program that allows you to type in a query for a train 
+ * (and/or specific wagons), and return this. Implement this so the line 
+ * interface allows use of larger than, smaller than, equal to type of 
+ * queries. Search should be for example
+ * a. Search by type of trains (probably returns a list of those types or null)
+ * b. Search by length
+ * c. Search by weight
+ * d. Has electric power drive (electric trains)
+ */
+
 package Opgave3;
 
 import java.util.ArrayList;

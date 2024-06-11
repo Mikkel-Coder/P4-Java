@@ -1,0 +1,8 @@
+If your communication only allows, say 100 train descriptions to be send back in a single
+response, an error could also be that too many trains were found. How can you address
+this?
+
+when the client tries to delete a train from the train list, there might perhaps not be any trains left.
+Instead of printing the stracktrace we should throw a coustome excetion like NoTrainsRemainingException
+
+see client.java line 312 in X_TrainCLI.java in Opgave1 package

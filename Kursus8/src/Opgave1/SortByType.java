@@ -1,3 +1,5 @@
+/* THIS FILE IS NOT A PART OF THE ASSIGMENT */
+
 package Opgave1;
 
 import java.util.Comparator;

@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2024-06-08T21:42:53.460Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="AWqcdWVjq2xxa9T70Dhl" version="24.3.1" type="device">
+  <diagram name="Page-1" id="XmsfeMfIwVYjY9pF0swG">
+    <mxGraphModel dx="598" dy="400" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hIhCJSLa0lFsLulayoNI-5" value="«interface»&lt;br&gt;&lt;b&gt;Vehicle&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="770" width="140" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-6" value="+ honk(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hIhCJSLa0lFsLulayoNI-5">
+          <mxGeometry y="30" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-10" value="&lt;b style=&quot;&quot;&gt;Train&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="435" y="790" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-11" value="&lt;b&gt;&lt;i&gt;RollingStock&lt;/i&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="435" y="890" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-16" value="ElectricLocomotive" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="990" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-17" value="- batteryProcentage: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hIhCJSLa0lFsLulayoNI-16">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="hIhCJSLa0lFsLulayoNI-16">
+          <mxGeometry y="50" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-19" value="+ getBatteryRemaining(): double&lt;div&gt;+ chageBattery(level: double): void&lt;/div&gt;&lt;div&gt;+ dischargeBattery(level: double): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hIhCJSLa0lFsLulayoNI-16">
+          <mxGeometry y="58" width="220" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-24" value="&lt;b&gt;&lt;i&gt;Locomotive&lt;/i&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="890" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-28" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hIhCJSLa0lFsLulayoNI-11" target="hIhCJSLa0lFsLulayoNI-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="870" as="sourcePoint" />
+            <mxPoint x="460" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-32" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hIhCJSLa0lFsLulayoNI-16" target="hIhCJSLa0lFsLulayoNI-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="1080" as="sourcePoint" />
+            <mxPoint x="450" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-34" value="Realization (&lt;font face=&quot;Courier New&quot;&gt;implements&lt;/font&gt;)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="320" y="850" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-35" value="Composistion (cannot exsist without)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="500" y="860" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-37" value="Inheritance (&lt;font face=&quot;Courier New&quot;&gt;exstends&lt;/font&gt;)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="310" y="960" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-39" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0.477;entryY=0.942;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="hIhCJSLa0lFsLulayoNI-24" target="hIhCJSLa0lFsLulayoNI-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="925" as="sourcePoint" />
+            <mxPoint x="445" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIhCJSLa0lFsLulayoNI-40" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hIhCJSLa0lFsLulayoNI-24" target="hIhCJSLa0lFsLulayoNI-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="407" y="947" as="sourcePoint" />
+            <mxPoint x="407" y="897" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

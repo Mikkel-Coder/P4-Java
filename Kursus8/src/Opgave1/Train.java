@@ -1,3 +1,5 @@
+/* THIS FILE IS NOT A PART OF THE ASSIGMENT */
+
 package Opgave1;
 
 public class Train {
@@ -5,7 +7,6 @@ public class Train {
 	public int length;
 	public int weight;
 	public boolean isElectric; 
-	
 
 	public Train(PassengerTrainTypes type, int length, int weight, boolean electric) {
 		this.type = type;
